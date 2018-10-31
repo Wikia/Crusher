@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": ["Cameron Chunn"]
+	},
+	"crusher": "Crusher",
+	"action-crusher": "perform Crusher actions",
+	"crusher_description": "Crush things that don't behave"
+}

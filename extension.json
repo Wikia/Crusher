@@ -1,0 +1,46 @@
+{
+	"name": "Crusher",
+	"version": "0.0.2",
+	"author": [
+		"Cameron Chunn",
+		"Hydra Wiki Platform Team"
+	],
+	"descriptionmsg": "crusher_description",
+	"type": "other",
+	"license": "GPL-2.0-or-later",
+	"MessagesDirs": {
+		"Crusher": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"CrusherHooks": "Crusher.hooks.php"
+	},
+	"ResourceModules": {
+		"ext.crusher.tables": {
+			"scripts": [
+				"js/crusher.tables.js"
+			],
+			"dependencies": [
+				"ext.hydraCore.font-awesome.styles"
+			],
+			"position": "top",
+			"targets": [
+				"desktop"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Crusher"
+	},
+	"Hooks": {
+		"BeforePageDisplay": [
+			"CrusherHooks::onBeforePageDisplay"
+		]
+	},
+	"config": {
+		"EnableTableCrushing": true
+	},
+	"manifest_version": 1
+}
