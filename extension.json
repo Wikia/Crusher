@@ -7,7 +7,7 @@
 	],
 	"descriptionmsg": "crusher_description",
 	"type": "other",
-	"license": "GPL-2.0-or-later",
+	"license-name": "GPL-2.0-or-later",
 	"MessagesDirs": {
 		"Crusher": [
 			"i18n"
