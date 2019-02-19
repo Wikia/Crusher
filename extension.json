@@ -8,6 +8,12 @@
 	"descriptionmsg": "crusher_description",
 	"type": "other",
 	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.29.0",
+		"extensions": {
+			"HydraCore": ">= 3.0.0"
+		}
+	},
 	"MessagesDirs": {
 		"Crusher": [
 			"i18n"
