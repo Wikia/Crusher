@@ -1,5 +1,5 @@
 (function(mw, $) {
-	$("div#mw-content-text > table").each(function() {
+	$("div#mw-content-text > .mw-parser-output > table").each(function() {
 		if ($(this).css('float') != 'right' && !$(this).hasClass('infoboxtable') && !$(this).hasClass('infobox')) {
 			var maxWidth = $(this).css('max-width');
 			if (maxWidth.indexOf('%') == -1) {
