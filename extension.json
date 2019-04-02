@@ -1,6 +1,6 @@
 {
 	"name": "Crusher",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": [
 		"Cameron Chunn",
 		"Hydra Wiki Platform Team"
@@ -9,7 +9,7 @@
 	"type": "other",
 	"license-name": "GPL-2.0-or-later",
 	"requires": {
-		"MediaWiki": ">= 1.29.0",
+		"MediaWiki": ">= 1.31.0",
 		"extensions": {
 			"HydraCore": ">= 3.0.0"
 		}
