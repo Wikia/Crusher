@@ -1,6 +1,6 @@
 (function(mw, $) {
 	$(function(){
-		tableCrusher(); // run first thing, because we dont need a resize to be broken.
+		tableCrusher(); // run first thing, because we don't need a resize to be broken.
 
 		let tableCrusherRTime;
 		let tableCrusherTimeout = false;
